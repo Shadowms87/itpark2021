@@ -35,6 +35,8 @@ public class SecondProgram {
     public static int multiplyAndSumma(int arg1) {
        int result = 3 * arg1+ 15;
        return result;
-       // Не дописал
+
     }
+    // Домашнее задание
+
 }
