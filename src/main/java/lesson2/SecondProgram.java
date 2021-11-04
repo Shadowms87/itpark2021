@@ -37,6 +37,6 @@ public class SecondProgram {
        int result 3 * arg1 + 15;
        result = result - 38;
        return result;
-       // Не дописал
+       // Не дописал.
     }
 }
