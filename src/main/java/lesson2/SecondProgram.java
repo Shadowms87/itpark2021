@@ -9,9 +9,8 @@ public class SecondProgram {
         long otherSumma = summa(5, 5);
         System.out.println(otherSumma);
 
-        long resultOfMinus = minus(2, 18);
-        System.out.println(resultOfMinus);
-
+        long resultOfMultiply = multiplyAndSumma(2);
+        System.out.println(resultOfMultiply);
 
 }
 
@@ -28,15 +27,14 @@ public class SecondProgram {
         return result;
     }
 
-    public static int minus(int arg1, int arg2) {
+    public static int multiplyAndSumma(int arg1, int arg2) {
         //Коммент. Просто коммент)
         return arg1 - arg2;
     }
 
     public static int multiplyAndSumma(int arg1) {
-       int result 3 * arg1 + 15;
-       result = result - 38;
+       int result = 3 * arg1+ 15;
        return result;
-       // Не дописал.
+       // Не дописал
     }
 }
