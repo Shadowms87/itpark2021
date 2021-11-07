@@ -12,6 +12,9 @@ public class SecondProgram {
         long resultOfMultiply = multiplyAndSumma(2);
         System.out.println(resultOfMultiply);
 
+        long resultOfSummDel = multiSummDelProizvedenie (5,8);
+        System.out.println(resultOfSummDel);
+
 }
 
     /**
@@ -37,6 +40,10 @@ public class SecondProgram {
        return result;
 
     }
-    // Домашнее задание
+    public static int multiSummDelProizvedenie (int arg1, int arg2) {
+        int result = arg1 * arg2 - 13 + (16/2);
+        return result;
+
+    }
 
 }
