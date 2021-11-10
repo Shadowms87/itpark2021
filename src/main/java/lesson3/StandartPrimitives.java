@@ -27,25 +27,20 @@ public class StandartPrimitives {
 
         if (value) {
             System.out.println("Переменная value истина");
-        } else  {
-            System.out.println ("Переменная value ложная");
+        } else {
+            System.out.println("Переменная value ложная");
         }
 
         double floatingPointValue = 1.5;
-        if (2.5) {
+        if (2.5 == floatingPointValue) {
             System.out.println("2.5 равно " + floatingPointValue);
-        } else  if (1==1){
-            System.out.println ("2.5 не равно " + floatingPointValue + ", но 1 = 1");
+        } else if (1 == 1) {
+            System.out.println("2.5 не равно " + floatingPointValue + ", но 1 = 1");
         } else {
-            System.out.println ("2.5 не равно " + floatingPointValue);
+            System.out.println("2.5 не равно " + floatingPointValue);
         }
 
 
-
-
-
-        }
-
-
+    }
 }
 
