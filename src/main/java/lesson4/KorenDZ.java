@@ -16,7 +16,9 @@ public class KorenDZ {
             int result = step * step;
             if (result == value) {
                 System.out.println("Квадратный корень равен: " + step);
+                return;
             }
+
             if (step >= value) {
                 System.out.println("Нет доступных верных решений, среди целых чисел");
 
