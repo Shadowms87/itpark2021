@@ -1,6 +1,6 @@
 package lesson4;
 
-public class WhileRunner {
+/*public class WhileRunner {
 
     public static void main(String[] args) {
         int counter = 1;
@@ -16,4 +16,4 @@ public class WhileRunner {
         }
 
     }
-}
+}*/
