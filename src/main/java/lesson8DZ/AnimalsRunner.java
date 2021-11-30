@@ -13,7 +13,7 @@ public class AnimalsRunner {
         Animals[] animal = new Animals[] {cat,dog,bird};
 
         System.out.println("----------------------------");
-        System.out.println();
+        System.out.println(cat.toString());
 
     }
 }
