@@ -7,7 +7,7 @@ public class CompanyAccount extends Account {
 
     public static int COUNT = 0;
 
-//    private static double COURSE = 75.56; //1$ = 75.56 рублей
+//    private static final double COURSE = 75.56; //1$ = 75.56 рублей
 
     public CompanyAccount(String name) {
         super(name);
