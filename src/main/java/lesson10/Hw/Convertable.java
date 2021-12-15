@@ -1,8 +1,6 @@
 package lesson10.Hw;
 
-import lesson10.Hw.impl.CelsiusToKelvinConverter;
-import lesson10.Hw.impl.IdentityConverter;
-import lesson10.Hw.impl.KelvinToCelsusConverter;
+import lesson10.Hw.impl.*;
 
 public interface Convertable {
     double convert(TemperatureValue value);
@@ -17,6 +15,9 @@ public interface Convertable {
                     case KELVIN -> {
                         return new KelvinToCelsusConverter().convert(value);
                     }
+                    case FAHRENHEIT -> {
+                        return new FahrenheitToCelsiusConverter().convert(value);
+                    }
                 }
             }
             case KELVIN -> {
@@ -27,10 +28,26 @@ public interface Convertable {
                     case CELSIUS -> {
                         return new CelsiusToKelvinConverter().convert(value);
                     }
+                    case FAHRENHEIT -> {
+                        return new FahrenheitToKelvinConverter().convert(value);
+                    }
                 }
             }
+            case FAHRENHEIT -> {
+                switch (value.getMeasurementSystem()) {
+                    case CELSIUS -> {
+                        return new CelsiusToFahrenheitConverter().convert(value);
+                    }
+                    case FAHRENHEIT -> {
+                        return new IdentityConverter().convert(value);
+                    }
+                    case KELVIN -> {
+                        return new KelvinToFahrenheitConverter().convert(value);
+                            }
+                        }
+                    }
         }
-        return -1;
+        throw new IllegalStateException("В данный код мы не можем попасть");
     }
 
     static double convert(double value, TemperatureMeasurementSystem fromSystem, TemperatureMeasurementSystem toSystem) {
