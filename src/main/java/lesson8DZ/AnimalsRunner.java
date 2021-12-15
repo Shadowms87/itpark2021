@@ -1,6 +1,6 @@
 package lesson8DZ;
 
-public class AnimalsRunner {
+/*public class AnimalsRunner {
 
     public static void main(String[] args) {
         Animals cat = new CatDZ("Муська", "Кошка", "Мяу");
@@ -16,4 +16,4 @@ public class AnimalsRunner {
         System.out.println(cat.toString());
 
     }
-}
+}*/
