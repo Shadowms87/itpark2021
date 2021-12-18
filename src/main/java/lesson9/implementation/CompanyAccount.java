@@ -1,6 +1,6 @@
 package lesson9.implementation;
 
-import lesson9.Account;
+/*import lesson9.Account;
 import lesson9.Course;
 
 public class CompanyAccount extends Account {
@@ -20,4 +20,4 @@ public class CompanyAccount extends Account {
         }
         return this.getBallance() / Course.CURRENT_VALUE;
     }
-}
+}*/

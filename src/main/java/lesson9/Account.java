@@ -1,6 +1,6 @@
 package lesson9;
 
-public class Account {
+public abstract class Account {
 
     private final String owner;
     private double ballance;
@@ -46,4 +46,6 @@ public class Account {
     public final double getBallance() {
         return ballance;
     }
+
+    protected abstract void printBalance();
 }

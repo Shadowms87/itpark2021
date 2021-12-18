@@ -1,10 +1,6 @@
 package lesson9;
 
-import lesson9.Account;
-import lesson9.implementation.CompanyAccount;
-import lesson9.implementation.PersonalAccount;
-
-public class AccountLauncher {
+/*public class AccountLauncher {
     public static void main(String[] args) {
         Account myAccaunt = new Account("Ivanov Vitaly");
         myAccaunt.activated();
@@ -36,4 +32,4 @@ public class AccountLauncher {
         System.out.println("Состояние счета в долларах: " + vtbCompanyAccount.getBallanceInDollars());
 
     }
-}
+}*/
